@@ -1,4 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+
 
 def hourglass(arr, s, t):
     sum = 0
