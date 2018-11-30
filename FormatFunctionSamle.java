@@ -113,7 +113,7 @@ public void formatANumberExample(){
   // prints: |00000000000000000093|
   //Print positive numbers with a “+”:
   //(Negative numbers always have the “-” included):
-      String.format("|%+20d|', 93);
+      String.format("|%+20d|", 93);
   // prints: |                 +93|
   //A space before positive numbers.
   //A “-” is included for negative numbers as per normal.
