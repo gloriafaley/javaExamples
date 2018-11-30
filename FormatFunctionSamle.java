@@ -109,37 +109,37 @@ public void formatANumberExample(){
        String.format("|%-20d|", 93);
   // prints: |93                  |
   //Pad with zeros:
-  String.format("|%020d|", 93);
+     String.format("|%020d|", 93);
   // prints: |00000000000000000093|
   //Print positive numbers with a “+”:
   //(Negative numbers always have the “-” included):
-  String.format("|%+20d|', 93);
+      String.format("|%+20d|', 93);
   // prints: |                 +93|
   //A space before positive numbers.
   //A “-” is included for negative numbers as per normal.
-  String.format("|% d|", 93);
+       String.format("|% d|", 93);
   // prints: | 93|
-  String.format("|% d|", -36);
+        String.format("|% d|", -36);
   // prints: |-36|
   //Use locale-specific thousands separator.
   //For the US locale, it is “,”:
-  String.format("|%,d|", 10000000);
+        String.format("|%,d|", 10000000);
   // prints: |10,000,000|
   //Enclose negative numbers within parantheses (“()”) and skip the “-“:
-  String.format("|%(d|", -36);
+        String.format("|%(d|", -36);
   // prints: |(36)|
   //Octal Output
-  String.format("|%o|"), 93);
+        String.format("|%o|"), 93);
   // prints: 135
   //Hex Output
-  String.format("|%x|", 93);
+        String.format("|%x|", 93);
   // prints: 5d
   //Alternate Representation for Octal and Hex Output
   //Prints octal numbers with a leading “0” and hex numbers with leading “0x“.
-  String.format("|%#o|", 93);
+        String.format("|%#o|", 93);
   // prints: 0135
-  String.format("|%#x|", 93);
+        String.format("|%#x|", 93);
   // prints: 0x5d
-  String.format("|%#X|", 93);
+        String.format("|%#X|", 93);
   // prints: 0X5D
 }
