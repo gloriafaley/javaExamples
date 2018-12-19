@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class FizzBuzzTest {
+public class FizzBuzz {
 
     /**
      * Java Method to solve FizzBuzz problem, which states that program
